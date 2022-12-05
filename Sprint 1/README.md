@@ -12,3 +12,12 @@
 - Identify the “type” of products which are highly impacted by external factors: “temperature”, “gas price”, and “holiday”. Is there any correlation between overall sales and holiday?
 
 
+## Analyze the dataset for CECS551_dataset_02
+
+### The dataset represents the unit sales (in number/quantity) of various products sold in the USA, organized in the form of grouped time series. More specifically, the dataset involves the unit sales of around 3000 products, classified in 3 product categories (Hobbies, Foods, and Household), and 7 product departments in which the above-mentioned categories are disaggregated. 
+The products are sold across 10 stores, located in 3 States (CA, TX, and WI). In this respect, the most disaggregated data, i.e., product- store unit sales, can be grouped based on either location (store and state) or product-related information (department and category). 
+
+- Use Tableau to visualize the dataset_02.
+- Publish the Tableau dashboard on public server. 
+
+Tableau URL: https://public.tableau.com/app/profile/pragya.sharma1552/viz/Group_02_Christian_Thube_Bolem_Sharma_Vora/Dashboard?publish=yes
