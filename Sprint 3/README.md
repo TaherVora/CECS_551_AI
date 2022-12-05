@@ -3,9 +3,9 @@
 ## The work of a Data Scientist does not end by designing an accurate model with historical data. The model should also be deployed for the end user and provide some decision making for business refinement. Sprint 3 deals with addressing these problems.
 
 
-###1. Deploy the machine learning model using Streamlit (https://github.com/streamlit) for dataset_02 (ARIMA) 
+### 1. Deploy the machine learning model using Streamlit (https://github.com/streamlit) for dataset_02 (ARIMA) 
 
-###2. Product segmentation based on demand variability (ABC Analysis).(dataset_02)
+### 2. Product segmentation based on demand variability (ABC Analysis).(dataset_02)
 
 
 
