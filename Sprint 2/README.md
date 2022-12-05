@@ -14,8 +14,8 @@
 - Communicate the model performance metrics and tabulate the comparison in report. Support your finding by validating the model accuracy across various stores (first 10 stores and store_11_35).
 
 #### In stores.csv, we have a feature “type”, i.e., three types of stores – A (Super center), B (Discount center), and C (Neighborhood markets). Now, based on the given features in the dataset, can we predict the store type? Please consider only first 10 stores for this problem statement. 
-- Consider the problem statement as multi-label classification problem. Use the below classification algorithms and perform hyper-parameter tuning for the Deep Learning models. 
-*- Ensemble models (3 statistical methods)
-*- Recurrent neural network (RNN)
-*- Convolutional Neural Networks (CNN)
-- Plot the relevant graphs and tabulate the performance metrics
+*- Consider the problem statement as multi-label classification problem. Use the below classification algorithms and perform hyper-parameter tuning for the Deep Learning models. 
+*-- Ensemble models (3 statistical methods)
+*-- Recurrent neural network (RNN)
+*-- Convolutional Neural Networks (CNN)
+*- Plot the relevant graphs and tabulate the performance metrics
