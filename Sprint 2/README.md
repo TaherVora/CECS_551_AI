@@ -19,3 +19,27 @@
 --- Recurrent neural network (RNN)
 --- Convolutional Neural Networks (CNN)
 - Plot the relevant graphs and tabulate the performance metrics
+
+
+### CECS551_dataset_02
+
+#### Task 1: Design a machine learning model to make accurate predictions for product sales for next 10 days in advance (the data set includes daily unit sales per product) and compare the performance of different machine learning algorithms.
+
+#### Background: The dataset also involves external variables, for exmaple, calendar-related information and selling prices. Thus, apart from the past unit sales of the products and the corresponding timestamps (e.g., date, weekday, week number, month, and year), there is also information available about: special events and holidays (e.g., Super Bowl, Valentine’s Day, and Orthodox Easter), organized into four classes, namely Sporting, Cultural, National, and Religious.
+
+#### Selling prices, provided on a week-store level (average across seven days). If not available, this means that the product was not sold during the week examined. Although prices are constant on a weekly basis, they may change with time.
+- Perform data preprocessing and exploratory data analysis. Perform down-casting (shrink dataset size)
+- Feature engineering: create two new features using the information provided in Table 1. 
+a) weather data
+b) median income
+
+
+Weather data: https://www.climate.gov/maps-data/dataset/past-weather-zip-code-data-table
+Median income: https://data.census.gov/cedsci/table?q=ZCTA5%2090804%20Income%20and%20Poverty&tid=ACSST5Y2020.S1903
+
+
+#### Use the below machine learning algorithms to model n-step ahead forecasting (n = 10).
+
+- Begin with ARIMA and compare the RMSE values for each category. 
+- Long short-term memory (LSTM) – Perform hyper-parameter to improve the model. 
+- Plot the relevant graphs and tabulate the performance metrics of each model. 
